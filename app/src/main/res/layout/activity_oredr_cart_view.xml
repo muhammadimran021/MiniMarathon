@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_oredr_cart_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.muhammadimran.minimarathon.Activitys.OredrCartView">
+
+    <ListView
+        android:id="@+id/OrderCArtList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/SubTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtotal"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/DeliverFees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery Fee"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/Total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/BuyItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addItems"
+            android:text="But Items" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

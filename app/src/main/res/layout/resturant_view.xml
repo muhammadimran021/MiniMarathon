@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/restaurantCard"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardUseCompatPadding="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/resturantimage"
+                android:layout_width="150dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/name_Resturant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Restaurant name"
+                android:textSize="20dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="2.0"
+                android:stepSize="1.0" />
+
+            <TextView
+                android:id="@+id/Deliver_fee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="DeliveryFee"
+                android:textSize="15dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/MinimumAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Minimum Amount"
+                    android:textSize="15dp" />
+
+
+                <Button
+                    android:id="@+id/ViewMenue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="menue" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

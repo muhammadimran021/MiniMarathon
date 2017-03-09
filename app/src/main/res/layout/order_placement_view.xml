@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/FirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/LastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/Mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/Company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company" />
+
+        <EditText
+            android:id="@+id/Street"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Street" />
+
+        <EditText
+            android:id="@+id/Floor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Floor" />
+
+        <EditText
+            android:id="@+id/Area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Area" />
+
+        <EditText
+            android:id="@+id/City"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City" />
+
+        <EditText
+            android:id="@+id/Comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Comment" />
+
+        <!--<Button-->
+        <!--android:id="@+id/placeOr der"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Place Order" />-->
+
+    </LinearLayout>
+</ScrollView>
